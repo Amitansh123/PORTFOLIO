@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* background-color: rgb(168 165 165); */
+    background-color: #F5F5DC;
+    /* width: 300px; */
+   font-family: 'Dosis', sans-serif; 
+   height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px   ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+.container{
+     display: flex;
+}
+.infocontainer{
+    /* background-color: pink; */
+    margin: 111px auto;
+    height: 60vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 60vh;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 23px;
+    font-style:italic;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    padding: 7px;
+    border-radius: 70px;
+    color: white;
+    background-color: #414141;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: #414141;
+}
+
+.contactform{
+    /* font-family: 'Ubuntu', sans-serif; */
+    padding: 0px 30px;
+    /* padding-top: 92px; */
+    /* font-family: 'Dosis', sans-serif;  */
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.contactform h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    font-size: 15px;
+    width: 25vw; 
+    border-radius: 7px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+flex-direction: row;
+}
+
+#form-check input{
+width: 20px;
+}
+.btn button{
+    width: 7vw;
+    padding: 5px;
+    border-radius: 70px;
+    color: white;
+    background-color: #414141;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    background-color: white;
+    color: #414141;
+}
+.procontainer{
+    padding: 0px 30px;
+    /* padding-top: 85px; */
+}
+.procontainer h1{
+    margin-bottom: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.proitem{
+    margin: 20px;
+    margin-bottom: 35px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 22px;
+}
+ .btn-pro{
+    width: 7vw;
+    padding: 5px;
+    border-radius: 70px;
+    color: white;
+    background-color: #414141;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 7px;
+ }
+ .btn-pro:hover{
+    background-color: white;
+    color: #414141;
+}
+.introcontainer1{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+   
+}
+.introcontainer2{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.introcontainer h1{
+    margin-bottom: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.introitem1{
+    margin: 20px;
+    margin-left: 4px;
+    padding: 0 90px;
+    padding-left: 16px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 22px;
+}
+.introitem2{
+    margin: 20px;
+    margin-bottom: 35px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 22px;
+}
+.main h1{
+    padding: 5px 100px;
+    margin-top: 82px;
+}
+.sidebargo{
+    transform: translate(-300px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute; 
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.close{
+    margin-left: 149px;
+}
+
+
+@media (max-width: 1200px) {
+    
+    .main{
+        width: 100vw;
+    }
+    .infocontainer{
+        width: 100vw;
+        height: 100vh;
+    }
+    /* .sidebar{
+        transform: translate(-300px, 0px);
+        position: absolute;
+    } */
+}
