@@ -9,8 +9,10 @@
     /* background-color: rgb(168 165 165); */
     background-color: #F5F5DC;
     /* width: 300px; */
+    position: absolute;
    font-family: 'Dosis', sans-serif; 
    height: 100vh;
+   transition: transform 0.4s ease-in;
 }
 .sidebar nav{
     padding: 45px;
@@ -26,7 +28,7 @@
 }
 .main{
     /* background-color: yellow; */
-    width: 85vw;
+    width: 100vw;
     font-family: 'Ubuntu', sans-serif;
     height: 100vh;
 }
@@ -43,9 +45,11 @@
 }
 
 .devPic img{
+    /* padding: 10px 10px; */
     height: 60vh;
 }
 .devInfo{
+    margin-left: 51px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,12 +96,13 @@
     /* font-family: 'Dosis', sans-serif;  */
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
+    margin: 0px 88px;
 }
 
 .contactform h1{
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    margin-bottom: 35px;
+    text-align: left;
+    margin-bottom: 35px ;
 }
 .contactform form div{
     padding: 10px 0px;
@@ -213,8 +218,11 @@ width: 20px;
     top: 10px;
     left: 10px;
 }
+.open{
+    margin-left: 8px;
+}
 .close{
-    margin-left: 149px;
+    margin-left: 178px;
 }
 
 
@@ -226,6 +234,9 @@ width: 20px;
     .infocontainer{
         width: 100vw;
         height: 100vh;
+    }
+    .devPic{
+        display: none;
     }
     /* .sidebar{
         transform: translate(-300px, 0px);
